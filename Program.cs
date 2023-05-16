@@ -15,8 +15,8 @@
                         arr[j] = arr[j+1];
                         arr[j+1] = temporary;
                     }
-                }
                 counter++;
+                }
             }
             return counter;
         }
